@@ -7,5 +7,5 @@ while True:
 
     factorial = 1
     for i in range(2, n+1):
-        factorial = factorial*i
+      factorial = factorial*i
     print((f"{n}! == {factorial}"))
