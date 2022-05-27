@@ -12,9 +12,7 @@ while True:
   for i in range(n - 1):
     for j in range(i+1, len(list_1)):
       if list_1[i] < list_1[j]:
-        tmp = list_1[i]
-        list_1[i] = list_1[j]
-        list_1[j] = tmp
+        list_1[i], list_1[j] = list_1[j], list_1[i]
   print(list_1)
 
 
