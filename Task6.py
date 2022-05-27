@@ -3,11 +3,11 @@ for i in range(10):
     if text == '':
         print('Введіть текст!')
         continue
-    a = text.split()
-    b = []
-    for i in range(len(a)):
-        b.append(''.join(sorted(a[i])))
+    text_split = text.split()
+    text_sorted = []
+    for i in range(len(text_split)):
+        text_sorted.append(''.join(sorted(text_split[i])))
 
-    b = ' '.join(sorted(b))
+    text_sorted = ' '.join(sorted(text_sorted))
 
-    print(b)
+    print(text_sorted)
