@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcb3761-119b-4e3c-99bf-975f6006730f" name="Changes" comment="Add Task8.1">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fbcb3761-119b-4e3c-99bf-975f6006730f" name="Changes" comment="Add Task9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,10 +42,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../It hillel/.idea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Python.Task9">
+  <component name="RunManager" selected="Python.assignment09_04">
     <configuration name="Task9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python.Hillel_05.05" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,11 +204,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.assignment09_04" />
         <item itemvalue="Python.Task9" />
         <item itemvalue="Python.assignment09_01" />
         <item itemvalue="Python.assignment09_03" />
         <item itemvalue="Python.assignment09_02" />
-        <item itemvalue="Python.assignment09_04" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654087360009</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Task9">
+      <created>1654789885191</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654789885191</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +283,7 @@
     <MESSAGE value="Add Task8.2" />
     <MESSAGE value="Add Task8.3" />
     <MESSAGE value="Add Task8.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Task8.1" />
+    <MESSAGE value="Add Task9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Task9" />
   </component>
 </project>

@@ -8,22 +8,21 @@
 # замінити тіло у функції з pass інструкцією
 
 from flask import Flask
-from flask import jsonify
 
 app = Flask(__name__)
 
-@app.route("/fib/<int:N>")
 def fibonacci(N):
-    def fibonacci(N):
-        if (N <= 1):
-            return N
-        else:
-            return (fibonacci(N - 1) + fibonacci(N - 2))
+    if (N <= 1):
+        return N
+    else:
+        return (fibonacci(N - 1) + fibonacci(N - 2))
 
+@app.route("/fib/<int:Num>")
+def fib_handler(Num):
     a = []
-    for i in range(N):
+    for i in range(Num):
         a.append(fibonacci(i))
 
     return str(a)
-# if __name__ == "main":
+
 app.run(debug=True)
