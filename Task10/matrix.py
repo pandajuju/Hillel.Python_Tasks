@@ -18,3 +18,14 @@ def print_matrix(matrix):
     for i in range(len(matrix)):
         print(matrix[i])
 
+
+def sort_matrix_bubble(matrix, n):
+    matrix = [j for i in matrix for j in i]
+    length = len(matrix)
+    for i in range(0, length):
+        for j in range(0, length - i - 1):
+            if matrix[j] > matrix[j + 1]:
+                temp = matrix[j]
+                matrix[j] = matrix[j + 1]
+                matrix[j + 1] = temp
+    return [matrix[i:i+n] for i in range(0, len(matrix), n)]
