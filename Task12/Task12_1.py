@@ -34,5 +34,6 @@ def main():
         except ZeroDivisionError:
             print(f"{num} / {divisor} = can't divide by 0 ")
 
+
 if __name__ == "__main__":
     main()
