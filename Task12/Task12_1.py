@@ -32,7 +32,7 @@ def main():
             time.sleep(1)
 
         except ZeroDivisionError:
-            print("can't divide by 0")
+            print(f"{num} / {divisor} = can't divide by 0 ")
 
 if __name__ == "__main__":
     main()

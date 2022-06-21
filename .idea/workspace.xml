@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcb3761-119b-4e3c-99bf-975f6006730f" name="Changes" comment="Add Task12">
-      <change afterPath="$PROJECT_DIR$/Task10/generate_matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task10/matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task10/quicksort.py" afterDir="false" />
+    <list default="true" id="fbcb3761-119b-4e3c-99bf-975f6006730f" name="Changes" comment="Add Task10_3 and sort_matrix_bubble in module">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +45,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Python.generate_matrix">
-    <configuration name="Task12_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Task10.3">
+    <configuration name="Task10.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python.Hillel_05.05" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,11 +54,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task10" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task12/Task12_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task10/Task10.2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -70,7 +67,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Task12_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Task10.3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python.Hillel_05.05" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,11 +75,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task10" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task12/Task12_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task10/Task10.3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="assignment10_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="assignment10_02 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python.Hillel_05.05" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,7 +142,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Python 05.05/assignment10_01.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Python 05.05/assignment10_02 (1).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,18 +197,18 @@
       <item itemvalue="Python.assignment06_02" />
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.generate_matrix" />
-      <item itemvalue="Python.Task12_2" />
-      <item itemvalue="Python.Task12_3" />
-      <item itemvalue="Python.assignment10_01" />
       <item itemvalue="Python.matrix" />
+      <item itemvalue="Python.assignment10_02 (1)" />
+      <item itemvalue="Python.Task10.2" />
+      <item itemvalue="Python.Task10.3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Task10.3" />
+        <item itemvalue="Python.Task10.2" />
+        <item itemvalue="Python.assignment10_02 (1)" />
         <item itemvalue="Python.generate_matrix" />
         <item itemvalue="Python.matrix" />
-        <item itemvalue="Python.assignment10_01" />
-        <item itemvalue="Python.Task12_3" />
-        <item itemvalue="Python.Task12_2" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +284,35 @@
       <option name="project" value="LOCAL" />
       <updated>1655709523374</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Task10_1">
+      <created>1655749440603</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655749440603</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add Task10_2">
+      <created>1655752108522</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655752108522</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add Task10_3">
+      <created>1655752177260</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655752177261</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add Task10_3 and sort_matrix_bubble in module">
+      <created>1655752363816</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655752363816</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,7 +336,11 @@
     <MESSAGE value="Fixed code" />
     <MESSAGE value="Add Task9.1" />
     <MESSAGE value="Add Task12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Task12" />
+    <MESSAGE value="Add Task10_1" />
+    <MESSAGE value="Add Task10_2" />
+    <MESSAGE value="Add Task10_3" />
+    <MESSAGE value="Add Task10_3 and sort_matrix_bubble in module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Task10_3 and sort_matrix_bubble in module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
