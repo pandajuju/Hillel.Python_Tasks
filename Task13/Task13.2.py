@@ -38,10 +38,10 @@ def main():
 
     flat_matrix = matrices.flatten(matrix)
     sequences.quicksort(flat_matrix, 0, len(flat_matrix)-1)
-    matrix = matrices.roll(flat_matrix, m, n)
+    # matrix = matrices.roll(flat_matrix, m, n)
     print("Sorted matrix")
-    for row in matrix:
-        print(row)
+    # for row in matrix:
+    print(flat_matrix)
 
 
 if __name__ == "__main__":

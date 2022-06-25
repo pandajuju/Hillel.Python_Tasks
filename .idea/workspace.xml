@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcb3761-119b-4e3c-99bf-975f6006730f" name="Changes" comment="Editing">
-      <change afterPath="$PROJECT_DIR$/Task13/Task13.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task13/Task13.2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task13/Task13.3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task13/toolset/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task13/toolset/fun.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task13/toolset/maths.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task13/toolset/matrices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task13/toolset/sequences.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toolset/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toolset/fun.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toolset/maths.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toolset/matrices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toolset/sequences.py" afterDir="false" />
+    <list default="true" id="fbcb3761-119b-4e3c-99bf-975f6006730f" name="Changes" comment="Add Task13">
+      <change afterPath="$PROJECT_DIR$/Task11.2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task10/quicksort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task10/quicksort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task13/Task13.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task13/Task13.2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +53,28 @@
       <recent name="D:\Python.Hillel_05.05\toolset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Task13.2">
+  <component name="RunManager" selected="Python.Task11.2">
+    <configuration name="Task11.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Julia\PycharmProjects\pythonProject1\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task11.2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Task13.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,27 +180,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quicksort (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Julia\PycharmProjects\pythonProject1\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/toolset" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/toolset/quicksort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="sequences" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,19 +204,19 @@
     <list>
       <item itemvalue="Python.assignment06_02" />
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.quicksort (1)" />
       <item itemvalue="Python.sequences" />
       <item itemvalue="Python.fun" />
       <item itemvalue="Python.Task13.1" />
       <item itemvalue="Python.Task13.2" />
+      <item itemvalue="Python.Task11.2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Task11.2" />
         <item itemvalue="Python.Task13.2" />
         <item itemvalue="Python.Task13.1" />
         <item itemvalue="Python.sequences" />
         <item itemvalue="Python.fun" />
-        <item itemvalue="Python.quicksort (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +334,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655835092371</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Add Task11.1">
+      <created>1656190443384</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1656190443384</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add Task13">
+      <created>1656190468070</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656190468070</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -374,7 +376,9 @@
     <MESSAGE value="Add Task10_3" />
     <MESSAGE value="Add Task10_3 and sort_matrix_bubble in module" />
     <MESSAGE value="Editing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Editing" />
+    <MESSAGE value="Add Task11.1" />
+    <MESSAGE value="Add Task13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Task13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
