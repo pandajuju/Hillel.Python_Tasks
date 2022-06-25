@@ -10,10 +10,15 @@ def partition(seq, left_idx, right_idx):
     return pivot
 
 
+
 def quicksort(seq, left_idx, right_idx):
 
     if left_idx >= right_idx:
         return
+
+
+
+
 
     pivot = partition(seq, left_idx, right_idx)
     quicksort(seq, left_idx, pivot-1)
