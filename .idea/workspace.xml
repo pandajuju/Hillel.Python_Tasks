@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcb3761-119b-4e3c-99bf-975f6006730f" name="Changes" comment="Add Task11.4">
-      <change afterPath="$PROJECT_DIR$/Task11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+    <list default="true" id="fbcb3761-119b-4e3c-99bf-975f6006730f" name="Changes" comment="Add Task11.3">
+      <change afterPath="$PROJECT_DIR$/Task14.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolset/maths.py" beforeDir="false" afterPath="$PROJECT_DIR$/toolset/maths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolset/matrices.py" beforeDir="false" afterPath="$PROJECT_DIR$/toolset/matrices.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,7 @@
       <recent name="D:\Python.Hillel_05.05\toolset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Task11">
+  <component name="RunManager" selected="Python.Task14">
     <configuration name="Task11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python.Hillel_05.05" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Task9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Task14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python.Hillel_05.05" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,7 +128,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task9.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task14.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,19 +203,19 @@
     <list>
       <item itemvalue="Python.assignment06_02" />
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.Task9" />
       <item itemvalue="Python.Task11.4" />
       <item itemvalue="Python.Task11_3" />
       <item itemvalue="Python.assignment11_03" />
       <item itemvalue="Python.Task11" />
+      <item itemvalue="Python.Task14" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Task14" />
         <item itemvalue="Python.Task11" />
         <item itemvalue="Python.Task11.4" />
         <item itemvalue="Python.assignment11_03" />
         <item itemvalue="Python.Task11_3" />
-        <item itemvalue="Python.Task9" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656265712025</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add Task11.3">
+      <created>1656270226868</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1656270226868</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -396,7 +400,8 @@
     <MESSAGE value="Add Task13" />
     <MESSAGE value="Add Task11.2" />
     <MESSAGE value="Add Task11.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Task11.4" />
+    <MESSAGE value="Add Task11.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Task11.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
