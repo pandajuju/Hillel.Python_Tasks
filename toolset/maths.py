@@ -10,14 +10,14 @@ def factorial(n):
     return factorial
 
 
-def convert_to_celsius(value):
+def to_celsius(d):
     """Converts degrees value from fahrenheit celsius to."""
-    return (value - 32) / 1.8
+    return (d - 32) / 1.8
 
 
-def convert_to_fahrengeit(value):
+def to_fahrengeit(d):
     """Converts degrees value from celsius to fahrenheit."""
-    return value * 1.8 + 32
+    return d * 1.8 + 32
 
 
 def fibonacci(N):

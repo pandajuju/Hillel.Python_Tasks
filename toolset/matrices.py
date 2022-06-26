@@ -1,4 +1,4 @@
-from sequences import quicksort
+# from sequences import quicksort
 import random
 
 def generate(n, m):
