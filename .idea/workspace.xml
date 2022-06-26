@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcb3761-119b-4e3c-99bf-975f6006730f" name="Changes" comment="Add Task11.3">
-      <change afterPath="$PROJECT_DIR$/Task14.py" afterDir="false" />
+    <list default="true" id="fbcb3761-119b-4e3c-99bf-975f6006730f" name="Changes" comment="Add Task14">
+      <change afterPath="$PROJECT_DIR$/Task14.2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
       <recent name="D:\Python.Hillel_05.05\toolset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Task14">
+  <component name="RunManager" selected="Python.Task14.2">
     <configuration name="Task11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python.Hillel_05.05" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,27 +66,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Task11_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Julia\PycharmProjects\pythonProject1\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="D:\Python.Hillel_05.05\Task11_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,6 +116,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Task14.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python.Hillel_05.05" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task14.2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,7 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="assignment11_03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="assignment14_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python.Hillel_05.05" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,7 +191,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Python 05.05/assignment11_03.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Python 05.05/assignment14_02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,18 +204,18 @@
       <item itemvalue="Python.assignment06_02" />
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.Task11.4" />
-      <item itemvalue="Python.Task11_3" />
-      <item itemvalue="Python.assignment11_03" />
       <item itemvalue="Python.Task11" />
       <item itemvalue="Python.Task14" />
+      <item itemvalue="Python.assignment14_02" />
+      <item itemvalue="Python.Task14.2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Task14.2" />
+        <item itemvalue="Python.assignment14_02" />
         <item itemvalue="Python.Task14" />
         <item itemvalue="Python.Task11" />
         <item itemvalue="Python.Task11.4" />
-        <item itemvalue="Python.assignment11_03" />
-        <item itemvalue="Python.Task11_3" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +368,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656270226868</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Add Task11.3">
+      <created>1656271658375</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1656271658375</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add Task14">
+      <created>1656271722108</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1656271722108</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,7 +415,8 @@
     <MESSAGE value="Add Task11.2" />
     <MESSAGE value="Add Task11.4" />
     <MESSAGE value="Add Task11.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Task11.3" />
+    <MESSAGE value="Add Task14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Task14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
