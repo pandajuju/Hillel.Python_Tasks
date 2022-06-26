@@ -9,7 +9,6 @@ class Flover:
         print(f'{self.name} {self.color} i пахне')
 
 
-
 peony = Flover('Піон', 'рожевий')
 chamomile = Flover('Ромашка', 'біла')
 peony.info()
