@@ -1,0 +1,126 @@
+"""Завдання: додати класс Employee (працівник) до класів з assignment14_02.py
+
+     Взяти за основу готове завдання assignment14_02.py (з рішенням, скопіювати в новий файл)
+     Додати новий клас Employee
+        атрибути: ім'я, стаж роботи (на поточному місці)
+        метод: get_details() - який буде повертати dict з атрибутами працівника
+     У існуючому класі Library додати:
+        атрибут employees який буде ініціалізуватися пустим списком
+        метод register_employee(Employee) який буде додавати Employee до employees
+    * Сформувати якийсь лист з об'єектами Employee (видумати працівників, декілька)
+      та написати функцію яка б додавала працівникив до об'єкту бібліотеки
+    * Додати код для демонстрації роботи програми - який би виводив працівників бібліотекі та книги.
+"""
+import uuid  # генерує унікальне значення, не isbn але ж легше використати
+
+
+class Employee:
+
+    def __init__(self, name, experience):
+        self.name = name
+        self.experience = experience
+
+
+    def get_details(self):
+        return {
+            "name": self.name,
+            "experience":self.experience
+        }
+
+
+class Book:
+
+    def __init__(self, isbn, title, author, year):
+        self.isbn = isbn
+        self.title = title
+        self.author = author
+        self.year = year
+
+
+class Library:
+
+    book_list = []
+    employees = []
+
+
+    def register_employee(self, Employee):
+        self.employees.append(Employee)
+
+
+    def add(self, Book):
+        self.book_list.append(Book)
+
+    def search(self, title):
+        for i in range(len(self.book_list)):
+            if self.book_list[i].title == title:
+                return i
+        return -1
+
+    def lend(self, title):
+        for i in self.book_list:
+            if i.title == title:
+                return i
+
+    def remove(self, title):
+        for i in self.book_list:
+            if i.title == title:
+                self.book_list.remove(i)
+                break
+
+
+
+
+BOOKS_TO_LOAD = [  # https://en.wikipedia.org/wiki/List_of_best-selling_books
+    (uuid.uuid4(), "A Tale of Two Cities", "Charles Dickens", 1859),
+    (uuid.uuid4(), "The Little Prince", "Antoine de Saint-Exupéry", 1943),
+    (uuid.uuid4(), "Harry Potter and the Philosopher's Stone", "J. K. Rowling", 1997),
+    (uuid.uuid4(), "And Then There Were None", "Agatha Christie", 1939),
+    (uuid.uuid4(), "Dream of the Red Chamber", "Cao Xueqin", 1791),
+    (uuid.uuid4(), "The Hobbit", "J. R. R. Tolkien", 1937),
+]
+
+EMPLOYEE_TO_LOAD = [
+    ("Petrov Oleg", "3"),
+    ("Sidorov Ivan", "7"),
+    ("Melekina Anna", "10"),
+    ("Smit Tom", "0.5")
+]
+
+
+def upload_employee(library):
+    for name, experience in EMPLOYEE_TO_LOAD:
+        library.register_employee(Employee(name, experience))
+
+
+def upload_books(library):
+    for isbn, title, author, year in BOOKS_TO_LOAD:
+        library.add(Book(isbn, title, author, year))
+
+def info(library):
+    print("Список книг:")
+    for b in library.book_list:
+         print(f"- {b.author} - {b.title}/{b.year}")
+
+    print("Список працівнків:")
+
+    for i in library.employees:
+        print(f"- {i.get_details().get('name')} ({i.get_details().get('experience')})")
+
+
+if __name__ == "__main__":
+    one_citys_library = Library()
+    upload_books(one_citys_library)
+    upload_employee(one_citys_library)
+    my_reading, query = None, "And Then There Were None"
+    if one_citys_library.search(query) != -1:
+        print("OMG! They have it")
+        my_reading = one_citys_library.lend(query)
+    else:
+        print("Damn! nothing to read.")
+
+    print("My current reading: ")
+    description = "nothing interesting" if my_reading is None \
+        else f"{my_reading.isbn}, {my_reading.title}, {my_reading.author}, {my_reading.year}"
+    print(description)
+    info(one_citys_library)
+
