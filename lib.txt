@@ -1,0 +1,9 @@
+3a6c03ac-caa8-4e92-baf1-caf0b6f29fef | A Tale of Two Cities | Charles Dickens | 1859 
+6db8a258-f65c-4fc7-be4f-75573c4caa3f | The Little Prince | Antoine de Saint-Exupéry | 1943 
+746e2379-aea6-4052-8fdd-19c65d63c3a0 | Harry Potter and the Philosopher's Stone | J. K. Rowling | 1997 
+39914422-fb81-4b03-9faa-71ff2ddde8b0 | And Then There Were None | Agatha Christie | 1939 
+e901a18b-0014-431c-a2b2-2d053944be74 | Dream of the Red Chamber | Cao Xueqin | 1791 
+a4bc2ca0-63ed-4f6c-a36a-20257ae8d874 | The Hobbit | J. R. R. Tolkien | 1937 
+f307e512-ef7f-4d59-b75b-73517129024f | The Lion, the Witch and the Wardrobe | C. S. Lewis | 1950 
+b8d431d3-fa6f-49f8-aef5-b6b3929ef39d | The Lion, the Witch and the Wardrobe | C. S. Lewis | 1950 
+f160696c-3ad8-49c9-a05c-6805c5195795 | The Lion, the Witch and the Wardrobe | C. S. Lewis | 1950 
