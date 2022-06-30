@@ -11,5 +11,3 @@ data = {
 
 data = {j:i for i in data for j in data.get(i)}
 print(data)
-
-

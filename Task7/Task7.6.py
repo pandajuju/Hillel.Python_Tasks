@@ -6,3 +6,4 @@ while ch := next(idx):
     if ch == ' ':
         break
     print(ch, end="")
+
