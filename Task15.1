@@ -11,7 +11,7 @@
       та написати функцію яка б додавала працівникив до об'єкту бібліотеки
     * Додати код для демонстрації роботи програми - який би виводив працівників бібліотекі та книги.
 """
-import uuid  # генерує унікальне значення, не isbn але ж легше використати
+import uuid
 
 
 class Employee:
@@ -39,8 +39,9 @@ class Book:
 
 class Library:
 
-    book_list = []
-    employees = []
+    def __init__(self):
+        self.book_list = []
+        self.employees = []
 
 
     def register_employee(self, Employee):
