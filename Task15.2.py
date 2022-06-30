@@ -115,7 +115,6 @@ class Library:
 
 
 
-
 BOOKS_TO_LOAD = [  # https://en.wikipedia.org/wiki/List_of_best-selling_books
     (uuid.uuid4(), "A Tale of Two Cities", "Charles Dickens", 1859),
     (uuid.uuid4(), "The Little Prince", "Antoine de Saint-Exupéry", 1943),
